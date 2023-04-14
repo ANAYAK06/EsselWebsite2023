@@ -1,0 +1,185 @@
+.careers{
+    position: relative;
+    top: 6rem;
+    text-align: center;
+    margin-bottom: 6rem;
+    
+}
+.h3text{
+    font-size: 2rem;
+}
+.careers_text{
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+
+.categories{
+   
+    width: 65%;
+    height: 400px;
+   
+    margin: auto;
+    margin-bottom: 0.5rem;
+
+}
+.category{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+}
+.c_selection{
+    width: max-content;
+    display: flex;
+    gap: 2rem;
+    border-radius:2rem;
+    box-shadow:1px 3px 3px 2px rgba(0, 0, 0, 0.5);
+    text-align: justify;
+    padding: 0.5rem;
+    cursor: pointer;
+    align-items: center;
+    
+}
+.right-arrow{
+    box-shadow: inset 5px 5px 10px #bfbfbf, inset -5px -5px 10px #ffffff;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.career_banner {
+    width: 99%;
+    height: 400px;
+}
+.career_banner img{
+    height: 390px;
+}
+.input_area{
+    display: grid;
+    width: 60%;
+    margin: 0 auto;
+    align-items: center;
+    gap: 2%;
+    margin-bottom: 10rem;
+}
+.input_name{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.input_name input{
+    width: 20rem;
+    height: 2.5rem;
+    border: 2px solid var(--blue);
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+}
+
+.clicked_category{
+    background-color: var(--blue);
+    color: white;
+}
+
+/*Education and other adding items */
+
+.education{
+    display: grid;
+    position: relative;
+    
+}
+.form_details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    
+    
+}
+.form_details input{
+    height: 2rem;
+    border: 2px solid var(--blue);
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+.close_icon{
+    position: relative;
+    width: max-content;
+    left: 790px;
+    font-size: 1.5rem;
+    padding: 0.2rem;
+    
+  
+}
+
+.details{
+    background-color: #f0f0fa;
+    
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 2rem;
+    padding: 4px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    
+  }
+  .experience{
+    display: grid;
+    position: relative;
+    
+}
+.skills{
+    display: grid;
+}
+.skills textarea {
+    padding: 1rem;
+    border: 1px solid var(--blue);
+}
+
+.contact_submit{
+    margin-bottom: 2rem;
+}
+
+/*MEDIA*/
+
+@media screen and (max-width: 768px) {
+   .careers{
+    position: relative;
+    top: 12rem;
+   }
+   .category{
+    grid-template-columns: 1fr;
+   }
+   .input_area{
+    position: relative;
+    top: 35rem;
+   }
+   .input_name{
+    grid-template-columns: 1fr;
+   }
+   .career_banner img{
+    width: 24rem;
+
+   }
+   .input_name input{
+    width: auto;
+   }
+   .education{
+    position: relative;
+    top: 5rem;
+   }
+   .experience{
+    position: relative;
+    top: 5rem;
+   }
+   }

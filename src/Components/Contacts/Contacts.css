@@ -1,0 +1,73 @@
+.contact{
+    color: var(--blue);
+    margin-top: 4rem;
+    text-align: center;
+    padding: 1rem;
+}
+.contact_area{
+    
+    display: grid;
+    grid-gap: 12%;
+    gap: 10%;
+    width: 80%;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2rem auto;
+
+}
+.input_contacts form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.input_contacts input{
+    width: 19rem;
+    height: 2.5rem;
+    border: 0.2rem solid var(--blue);
+    border-radius: 2rem;
+    padding-inline: 1rem;
+
+}
+.input_contacts textarea{
+    border: 0.2rem solid var(--blue);
+    padding-inline: 1rem;
+}
+.contact_icon{
+    background-color: var(--blue);
+    color: #fff;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    
+    
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    
+    text-align: center;
+}
+.dnd_icon{
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.dnd_icon a {
+    text-decoration: none;
+}
+.contact_icon:hover{
+background-color: var(--blue_variant);
+}
+
+@media screen and (max-width: 768px){
+    .contact {
+        position: relative;
+        top: 25rem;
+    }
+    .contact_area {
+        grid-template-columns: 1fr;
+    }
+}

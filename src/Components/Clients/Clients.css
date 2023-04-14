@@ -1,0 +1,40 @@
+.client_area{
+    display: grid;
+    gap: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    color: var(--blue);
+}
+
+.clients{
+    
+   
+    width: 100px;
+    height: 100px;
+    
+}
+
+.client_logo{
+    
+    margin-top: 1.2rem;
+    align-items: center;
+    justify-content: center;
+}
+.slick-arrow.slick-prev{
+    display: none;
+}
+.slick-arrow.slick-next{
+    display: none;
+}
+.client-section{
+    width: 80%;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px){
+    .client-section{
+        position: relative;
+        top: 28rem;
+    }
+}

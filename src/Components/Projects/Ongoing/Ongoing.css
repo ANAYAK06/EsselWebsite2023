@@ -1,0 +1,84 @@
+.ongoing_project{
+    box-shadow: 0px -5px 5px -5px rgba(0,0,0,0.75);
+    position: relative;
+    top: 6rem;
+    margin-bottom: 10rem;
+
+
+}
+.headings{
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+}
+.slider_div{
+   width: 80%;
+   margin: 0 auto;
+   margin-bottom: 0.2rem;
+   text-align: center;
+   color: var(--blue);
+   padding-bottom: 2rem;
+  
+
+
+   
+    
+}
+.ongo_banner{
+    position: relative;
+}
+.ongo_banner img{
+    height: 450px;
+    width: 100%;
+}
+.banner_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6rem;
+    background-color:rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-shadow: 2px 5px #000;
+    color: #fff;
+    border: 1rem solid transparent;
+}
+.project_tab{
+    display: flex;
+    gap: 1%;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.tab{
+    background-color:var(--blue);
+    padding: 1rem;
+    border-radius: 1.5rem 1.5rem 0 0 ;
+    color: #fff;
+    cursor: pointer;
+    width: 250px;
+}
+.active{
+    background-color: #fff;
+    color: var(--blue);
+    border: 1rem solid var(--blue);
+    box-shadow: inset 10px 10px 15px #bfbfbf, inset -10px -10px 20px #ffffff;
+}
+
+@media screen and (max-width: 768px){
+    .ongoing_project{
+        top: 12rem;
+    }
+    .ongo_banner{
+        width: 99vw;
+    }
+    .banner_text{
+        width: 80%;
+        font-size: 3rem;
+    }
+}

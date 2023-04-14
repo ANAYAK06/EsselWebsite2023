@@ -1,24 +1,57 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { Routes, Route, useLocation } from 'react-router-dom';
+import Home from './Components/Home';
+import Ongoing from './Components/Projects/Ongoing/Ongoing'
+import Overview from './Components/Pages/Overview'
+import Sustainability from './Components/Pages/Sustainability'
+import { useEffect } from 'react';
+import Careers from './Components/Careers/Careers';
+import Closed from './Components/Projects/Closed/Closed';
+import Footer from './Components/Footer/Footer';
+import Header from './Components/Navbar/Navbar';
+
 
 function App() {
+
+  const location = useLocation();
+
+  useEffect(()=>{
+    if(location.hash){
+      const element = document.querySelector(location.hash)
+      if(element){
+        element.scrollIntoView({behavior:'smooth'})
+      }
+    }
+  })
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    
+      <Header />
+      <Routes>
+        <Route exact path='/' element={<Home/>} />
+        
+        <Route  path='/about' element={<Overview/>} />
+        <Route  path='/sustainability' element={<Sustainability/>  }  />
+        <Route path='/career' element = {<Careers />  } />
+        <Route  path='/running' element={<Ongoing />} />
+        <Route path='/closed' element = {<Closed />  } />
+
+
+      </Routes>
+      <Footer />
+    
+    
+       
+   
+
+
+    </>
+      
+     
+  
   );
 }
 
