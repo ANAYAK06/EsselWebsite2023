@@ -99,6 +99,7 @@ nav.scrolled {
     .name{
         text-align: center;
         margin-top: 1rem;
+        font-size: 0.7rem;
     }
     .nav-links{
         display: none;
@@ -134,17 +135,36 @@ nav.scrolled {
     .name p{
         display:none ;
     }
+    .logo{
+        width:3rem ;
+        height: 3rem;
+    }
+    .logo img{
+        width: 3rem;
+        height: 3rem;
+    }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1300px) {
     /* Styles for 13-inch laptops */
 
     .name{
         font-size: 1rem;
     }
+    .logo img{
+        width: 3rem;
+        height: 3rem;
+    }
+  }
+  .logo{
+    width: 3rem;
+    height: 3rem;
+  }
+  .nav-links a{
+    font-size: 0.9rem;
   }
   
-  @media screen and (min-width: 1025px) and (max-width: 1366px) {
+  @media screen and (min-width: 1301px) and (max-width: 1366px) {
     /* Styles for 14-inch laptops */
     .name{
         font-size: 1.3rem;
