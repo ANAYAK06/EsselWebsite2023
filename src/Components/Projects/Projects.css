@@ -51,6 +51,7 @@
     transform: translateX(1px) translateY(2px);
     transition: transform 1s;
     padding-bottom: 2rem;
+    background-color: #f2f2f7b0;
 }
 .p-text:hover{
     transform:  translateY(-35px);

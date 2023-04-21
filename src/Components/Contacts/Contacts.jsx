@@ -1,29 +1,12 @@
-import React, { useRef } from 'react'
-import emailjs from 'emailjs-com'
-
+import React from 'react'
+import { Link } from 'react-router-dom'
 import './Contacts.css'
 import {AiOutlineCloudDownload} from 'react-icons/ai'
-import eni from '../../Assets/eni.pdf'
-import ehv from '../../Assets/ehv.pdf'
-import fab from '../../Assets/fab.pdf'
+
+import ContactForm from './ContactForm'
 
 function Contacts() {
-    const form = useRef()
-
-  
-    const sendEmail = (e)=> {
-        e.preventDefault();
-
-        emailjs.sendForm('service_zu19oc5', 'template_v55d4xe', form.current, 'cmueqT_AMUUJSewnC')
-        e.target.reset()
-    }
-   
-    
-
-   
-
-
-
+ 
 
   return (
     <>
@@ -63,37 +46,18 @@ function Contacts() {
                 <div className="social">
                     <article className='contact_icon'>
                         
-                        <h5>Download</h5>
-                        <small>E&I Profile</small> 
+                        <h5>Downloads</h5>
+                        <small>Click Here to Download Our latest EHV, E&I, Fabrication Projects Profile</small> 
                         <div className="dnd_icon">
-                        <a href={eni} download><AiOutlineCloudDownload  /></a>
+                            <Link to='/downloads' > <AiOutlineCloudDownload  /> </Link>
+
+                        
                         </div>
                     </article>
-                    <article className='contact_icon'  >
                     
-                    <h5>Download</h5>
-                        <small>Fabrication Profile</small> 
-                        <div className="dnd_icon">
-                        <a href={fab} ><AiOutlineCloudDownload /></a>
-                        </div>
-                    </article>
-                    <article className='contact_icon'>
-                    
-                    <h5>Download</h5>
-                        <small>EHV Substation Profile</small> 
-                        <div className="dnd_icon"   >
-                        <a href={ehv} ><AiOutlineCloudDownload /></a>
-                        </div>
-                    </article>
                 </div>
                 <div className="input_contacts">
-                    <form action="" ref={form} onSubmit={sendEmail}>
-                        <input type="text" placeholder='Your Name /Company Name'  name='name' />
-                        <input type="text" placeholder='Email Address' name='email'  />
-                        <input type="text" placeholder='Subject'  name='subject' />
-                        <textarea name="message" id="" cols="30" rows="10" placeholder='Your Message'  ></textarea>
-                        <button type='submit' className='btn_blue'>Send Message</button>
-                    </form>
+                    <ContactForm />
                 </div>
                 
             </div>

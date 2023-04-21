@@ -73,11 +73,14 @@
     margin:0 auto ; 
     color: var(--blue);
     width: 95%;
+    position: relative;
+    top: 1.5rem;
 
 }
 
 .area{
    display: grid; 
+   background-color:rgba(243, 243, 248, 0.836);
    
     
 }
@@ -100,6 +103,11 @@
 .fabunit{
     box-sizing: border-box;
     text-align: center;
+    background-color: rgba(5, 5, 80, 0.80);
+    padding: 0.7rem;
+    color: #fff;
+    box-shadow: 10px 0px 10px -5px rgba(0,0,0,0.50), -10px 0px 10px -5px rgba(0,0,0,0.50), 0px 10px 10px -5px rgba(0,0,0,0.75);
+    
 
 }
 .fabunit h2{
@@ -115,7 +123,7 @@
     
 }
 .fabunit img{
-    width: 500px;
+    width: 450px;
     height: 200px;     
 }
 .fab_image{
@@ -147,7 +155,7 @@
     font-size: 0.9rem;
 }
 .c_card{
-    background-color: var(--blue);
+    background-color:#fff;
     border: 1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
@@ -157,7 +165,7 @@
     
 }
 .c_card:hover{
-    background-color: var(--blue_variant);
+    background-color: #d6caee;
 
 
 }
@@ -167,10 +175,10 @@
     display: grid;
     gap: 1.5rem;
     grid-template-columns: 1fr 1fr 1fr;
-    color: #fff;
+    color:var(--blue);
 }
 .c-icon{
-    color: #fff;
+    color:var(--blue);
     font-size: 1.8rem;
     margin-bottom: 1rem;
     

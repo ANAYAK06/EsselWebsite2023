@@ -66,7 +66,7 @@ function Overview() {
             <img src={kp} alt="" />
           </div>
           <div>
-          Chairman & Managing Director: Pradeep K
+          Chairman & Managing Director: Pradeep Kunnummal
           </div>
           
         </div>

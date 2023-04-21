@@ -12,6 +12,10 @@ body{
   font-family: 'Poppins', sans-serif;
   color: var(--blue);
   scroll-behavior: smooth;
+  background-image: url(/public/bg/back.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 :root{
   --blue: rgb(5, 5, 80);

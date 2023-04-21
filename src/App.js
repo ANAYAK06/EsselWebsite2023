@@ -10,6 +10,8 @@ import Careers from './Components/Careers/Careers';
 import Closed from './Components/Projects/Closed/Closed';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Navbar/Navbar';
+import Downloads from './Components/Contacts/Downloads';
+
 
 
 function App() {
@@ -38,6 +40,8 @@ function App() {
         <Route path='/career' element = {<Careers />  } />
         <Route  path='/running' element={<Ongoing />} />
         <Route path='/closed' element = {<Closed />  } />
+        <Route path='/downloads' element = {<Downloads/> } />
+
 
 
       </Routes>

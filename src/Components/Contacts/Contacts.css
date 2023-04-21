@@ -12,12 +12,16 @@
     width: 80%;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 2rem auto;
+    background-color: rgba(255, 255,255, 0.60);
+    padding: 2rem;
 
 }
 .input_contacts form{
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+    background-color: rgba(255, 255,255, 0.80);
+    padding: 1rem;
 }
 .input_contacts input{
     width: 19rem;
@@ -40,16 +44,19 @@
     
 }
 .social{
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+    top: 5rem;
 }
 .address{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    
+    background-color: rgba(255, 255,255, 0.80);
     text-align: center;
+    padding: 0.5rem;
 }
 .dnd_icon{
     font-size: 1.5rem;
@@ -60,6 +67,44 @@
 }
 .contact_icon:hover{
 background-color: var(--blue_variant);
+}
+
+.download_area{
+    position: relative;
+    top: 6rem;
+    width: 60%;
+    background-color: #ffffffcb;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+.dnd_form{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    padding: 1rem;
+    margin: 0 4.5rem;
+    padding: 1rem;
+   
+    
+}
+.dnd_form input{
+    width: 18rem;
+    height: 2rem;
+    margin: 1rem;
+    padding-inline: 1rem;
+    border: transparent;
+    border-bottom: 2px solid var(--blue);
+    background-color: transparent;
+    
+}
+.dnd_form select{
+    width: 19rem;
+    height: 2rem;
+    margin: 1rem;
+    border: transparent;
+    border-bottom: 2px solid var(--blue);
 }
 
 @media screen and (max-width: 768px){
