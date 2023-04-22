@@ -11,6 +11,7 @@ function Downloads() {
   const [organization, setOrganization] = useState('');
   const [email, setEmail] = useState('');
   const [selectedProfile, setSelectedProfile] = useState('');
+  const [phonenumber, setPhoneNumber] = useState('')
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
 
   const handleNameChange = (event) => {
@@ -28,6 +29,9 @@ function Downloads() {
   const handleProfileChange = (event) => {
     setSelectedProfile(event.target.value);
   };
+  const handlePhoneChange = (event)=> {
+    setPhoneNumber(event.target.value)
+  }
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -36,7 +40,7 @@ function Downloads() {
   };
 
   useEffect(() => {
-    if (name && organization && email && selectedProfile && isFormSubmitted) {
+    if (name && organization && email && selectedProfile && phonenumber && isFormSubmitted) {
       switch (selectedProfile) {
         case 'EHV Profile':
           window.open(ehv);
@@ -51,7 +55,7 @@ function Downloads() {
           break;
       }
     }
-  }, [name, organization, email, selectedProfile, isFormSubmitted]);
+  }, [name, organization, email, phonenumber, selectedProfile, isFormSubmitted]);
 
   const form = useRef()
 
@@ -79,6 +83,7 @@ function Downloads() {
         <input type="text" placeholder='Your Name' name='name' value={name} onChange={handleNameChange} required />
         <input type="text" placeholder='Business/Organization' value={organization} onChange={handleOrganizationChange} name='subject' required />
         <input type="email" placeholder='Your E-mail' value={email} onChange={handleEmailChange} name='email' required/> <br />
+        <input type="number" placeholder='Your Phone Number' value={phonenumber} onChange={handlePhoneChange}  name='number' required />
         <select name="message" id="" value={selectedProfile} onChange={handleProfileChange}  >
         <option value="">Select Profile</option>
           <option value="EHV Profile">EHV Profile</option>

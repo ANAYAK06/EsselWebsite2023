@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom';
 import {bgImages} from './bg'
 import './Main.css'
 
@@ -13,7 +14,7 @@ function Main() {
         const nextImage = prevImage + 1;
         return nextImage >= bgImages.length ? 0 : nextImage;
       });
-    }, 5000);
+    }, 6000);
 
     return () => clearInterval(intervalId);
   }, []);
@@ -31,9 +32,14 @@ function Main() {
               <img src={bg.img} alt="" />
               <div className='project_name'>
                 <p>{bg.project}</p>
+                
+              </div>
+              <div className="btn_outline bg_btnarea">
+                <Link to='/#contact'>Contact Us </Link>
               </div>
             </div>
           ))}
+          
         </div>
       </div>
     

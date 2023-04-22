@@ -32,6 +32,10 @@
     
     text-align: justify;
     padding: 1.5rem;
+    background-color: rgba(243, 243, 248, 0.836);
+    position: relative;
+    top: 4rem;
+    box-shadow: 10px 0px 10px -5px rgba(0,0,0,0.50), -10px 0px 10px -5px rgba(0,0,0,0.50), 0px 10px 10px -5px rgba(0,0,0,0.75);
 }
 .overview h2{
     padding: 2rem;
@@ -44,23 +48,30 @@
 .vison_mission{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
+    position: relative;
+    top: 3rem;
     gap: 2%;
     text-align: justify;
     padding: 0 2rem;
     margin: 0  auto;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     padding-bottom: 5rem;
 }
 .vision{
     border: 1px solid var(--blue);
     padding: 1.5rem;
     border-radius: 2rem;
+    background-color: rgba(5, 5, 80, 0.80);
+    color: #fff;
+    box-shadow: 10px 0px 10px -5px rgba(0,0,0,0.50), -10px 0px 10px -5px rgba(0,0,0,0.50), 0px 10px 10px -5px rgba(0,0,0,0.75);
 }
 .mission{
     border: 1px solid var(--blue);
     padding: 1.5rem;
     border-radius: 2rem;
+    background-color: rgba(5, 5, 80, 0.80);
+    color: #fff;
+    box-shadow: 10px 0px 10px -5px rgba(0,0,0,0.50), -10px 0px 10px -5px rgba(0,0,0,0.50), 0px 10px 10px -5px rgba(0,0,0,0.75);
 }
 
 /*========== AREA OF OPERATION======*/
@@ -114,11 +125,12 @@
     margin-top: 1rem;
 }
 .fabunit p{
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: flex;
     text-align: justify;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     position: relative;
+    margin-bottom: 1rem;
   
     
 }

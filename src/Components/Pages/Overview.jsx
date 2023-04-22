@@ -66,7 +66,7 @@ function Overview() {
             <img src={kp} alt="" />
           </div>
           <div>
-          Chairman & Managing Director: Pradeep Kunnummal
+          <h4>Chairman & Managing Director: Pradeep Kunnummal</h4>
           </div>
           
         </div>
@@ -74,6 +74,7 @@ function Overview() {
       <div className="vison_mission">
         <div className="vision">
           <h3>OUR VISION</h3>
+          <hr />
           <p>
             We visualize ourselves as a major EPC contractor in the field of
             engineering Services for projects Construction with related
@@ -88,6 +89,7 @@ function Overview() {
         </div>
         <div className="mission">
           <h3>OUR MISSION </h3>
+          <hr />
           <p>
             At ESSEL PROJECTS PVT LTD. We are committed to perform for our
             customers providing them with the highest level of quality services

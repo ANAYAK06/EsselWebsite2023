@@ -29,10 +29,10 @@ function Area() {
              >
             <h3>Electrical Erection, Testing & Commissioning</h3>
             <ul>
-                <li> <BsVectorPen/> Installation,Testing and Commissioning of E. H.V Substation (AIS & GIS)</li>
-                <li> <BsVectorPen/>Erection, Testing,Commissioning of Plant Electricals</li>
-                <li> <BsVectorPen/>Complete Plant illumination and Electrical installation for Cement,Steel and Power Plant</li>
-                <li> <BsVectorPen/>Installation of Heavy  Equipment</li>
+                <li> <BsVectorPen/>Installation, Testing and Commissioning of E. H.V Substation (AIS & GIS)up to 765KV</li>
+                <li> <BsVectorPen/>Installation of HVDC SS Projects </li>
+                <li> <BsVectorPen/>Supply Installation, Testing, Commissioning of Complete Plant Electricals and Illumination for Cement, Steel, Power, and Process industries</li>
+                <li> <BsVectorPen/>Unloading Shifting and Installation of Heavy Equipment</li>
                 <li> <BsVectorPen/>Providing High Skilled Manpower Services</li>
             </ul>
             </div>
@@ -41,28 +41,31 @@ function Area() {
             >
             <h3>Control and Instrumentation</h3>
             <ul>
-                <li> <BsVectorPen/>Erection, Testing and Commissioning of Instrumentation systems for Power, Steel, Cement and other Process Industries.</li>
+                <li> <BsVectorPen/>Supply Installation, Testing and Commissioning of Instrumentation systems for Cement, Steel, Power and Process Industries</li>
                 
             </ul>
             </div>
             <div className="area_card">
-            <h3>Structural Works (Under Work Unit, Bhilai)</h3>
+            <h3>Structural & Mechanical Works (Under Works Unit, Bhilai)</h3>
             <ul>
-                <li><BsVectorPen/> Heavy Structural Fabrication & Installation of Structure for verious Industries </li>
-                <li> <BsVectorPen/>Pipe Gallery, Conveyor structure, Cable Trestle, Building Substation</li>
-                <li><BsVectorPen/> Color Coated Sheeting</li>
+                <li><BsVectorPen/> Fabrication of Heavy Structural, Ducts etc for various Industries </li>
+                <li> <BsVectorPen/>Pipe Gallery, Conveyor structure, Cable Trestle, Buildings Structural for various industries</li>
+                <li><BsVectorPen/>Fabrication and Erection of Structural, Piping etc for various industries</li>
+                <li><BsVectorPen/>Sheeting works for building , conveyors etc</li>
                 
             </ul>
             </div>
             <div className="area_card">
             <h3>Civil Projects</h3>
             <ul>
-                <li><BsVectorPen/> Complete Civil works for Substations including Foundation, Building Road, Fencing etc. </li>
+                <li><BsVectorPen/>Complete Civil works for HV Substations (AIS/GIS ) including Foundation, Buildings, Road, Fencing etc </li>
             </ul>
             </div>
          <div className="area_card">
-         <h3>
-Civil Contract Using Pre-Cast Technology</h3>
+         <h3>Operation & Maintenance</h3>
+         <ul>
+         <li><BsVectorPen/>Providing technically skilled manpower for operation and maintenance of Steel, Power and Cement Plants. </li>
+         </ul>
          </div>
 
             
@@ -70,7 +73,9 @@ Civil Contract Using Pre-Cast Technology</h3>
     </div>
     <div className="fabunit" >
         <h2>FABRICATION AND WORKS UNIT</h2>
-        <p>Our Fabrication & Works Unit at Bhilai Steel city under our mechanical division is an integrated fabrication and supporting activity centre providing customized product supporting for our installation projects. The unit consist of 6000 Sq.Ft. of covered area and 85000 Sq.Ft. of open yard with all modern fabrication facilities and machines</p>
+        <p>Our works unit at Bhilai Heavy industrial area, with overall area of approx. 1,55,000 sq. ft. with all modern fabrication facility suitable for heavy structural, Ducts etc with 40000 sq. ft. covered shed etc; including for blasting and painting with present capacity to dispatch 500 to 700 MT per month of medium to heavy structural and looking to enhance the capacity in near future. <br />
+We had delivered quality fabricated structural to valued customers like M/s JSW, approx.(6500MT) through M/s Salasar , M/s Atmastco, M/s Towel Engineering  , to M/s Adani Ports,(1750MT) through M/s Towel and M/s CINDA Engineering,  to M/s SAIL, Bhilai Steel Plant(4800MT)through M/s ABB Ltd, to M/s Tata Steel Kalinga Nagar project (456MT) , for NTPC Talcher through M/s Tata Projects (800MT)
+</p>
         <div className="fab_image">
             <img src={Fab} alt="" />
         </div>

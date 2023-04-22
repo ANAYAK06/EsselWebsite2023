@@ -23,6 +23,7 @@ function ContactForm() {
     <form action="" ref={form} onSubmit={sendEmail}>
                         <input type="text" placeholder='Your Name /Company Name'  name='name' />
                         <input type="text" placeholder='Email Address' name='email'  />
+                        <input type="number" placeholder='Contact Number' name='number'  />
                         <input type="text" placeholder='Subject'  name='subject' />
                         <textarea name="message" id="" cols="30" rows="10" placeholder='Your Message'  ></textarea>
                         <button type='submit' className='btn_blue'>Send Message</button>
