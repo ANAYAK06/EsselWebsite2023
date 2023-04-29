@@ -51,6 +51,11 @@
      border: 1px solid var(--blue);
  }
 
+.tab-text{
+    font-size: 0.5rem;
+}
+
+
  @media screen and (max-width: 768px){
 
     .banner_text{

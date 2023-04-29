@@ -80,7 +80,18 @@ function Header() {
   const toggleMenu = ()=>{
     setShowMenu(!showMenu)
   }
+  
+  const scrollToTop =()=>{
+    window.scrollTo({
+        top:0,
+        behavior:'smooth'
+    })
+}
 
+const handleBothClick = ()=>{
+  toggleMenu();
+  scrollToTop();
+}
 
 
 
@@ -111,7 +122,7 @@ function Header() {
            {
             menuItems.map((menuItem, index)=>(
                 <li  key={index} className='menulist'  >
-                <Link  to={menuItem.to} onClick={toggleMenu} >{menuItem.heading}   </Link>
+                <Link  to={menuItem.to} onClick={handleBothClick} >{menuItem.heading}   </Link>
             </li>
             ))
            }

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Pages.css";
 import ovr from '../../Assets/Ov.jpg'
-import kp from '../../Assets/kp.png'
+import safety from '../../Assets/safety5.jpg'
 
 function Overview() {
   return (
@@ -45,7 +45,7 @@ function Overview() {
             assignment with commitment, the company has been certified under ISO
             9001-2000 in 2008 and further renewed by 9001 -2008 in 2011. The
             growth of our company is based on an efficient organization and
-            management under guidance of our Managing Director Mr. K. Pradeep.
+            management under guidance of our Managing Director Mr. Pradeep Kunnummal
             We have been obtaining many valuable projects of EHV Substations,
             Plant Electrical from our valued customers and clients and are in
             the verge of completing many of those projects. <br />
@@ -63,10 +63,10 @@ function Overview() {
         </div>
         <div className="c_avatar">
           <div className="c_img">
-            <img src={kp} alt="" />
+            <img src={safety} alt="" />
           </div>
           <div>
-          <h4>Chairman & Managing Director: Pradeep Kunnummal</h4>
+          <h4> ABB Awarded us ,  The Best Safety Conscious Contractor</h4>
           </div>
           
         </div>

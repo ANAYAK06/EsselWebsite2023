@@ -9,9 +9,9 @@ export const ongoFabProjects = [
             "./ongoing/Ongo_29.jpg", "./ongoing/Ongo_29_1.jpg","./ongoing/Ongo_29_2.jpg","./ongoing/Ongo_29_3.jpg"
         ],
         client: "NEO STRUCTO",
-        customer:"UAIL",
+        customer:"UTKAL ALUMINA INTERNATIONAL LTD",
         location:"TIKRI",
-        project:"ERECTION OF STRUCTURAL STEEL AT TIKRI, ODISHA"
+        project:"ERECTION OF STRUCTURAL STEEL, EQUIPMENT, PIPING FOR ALUMINA REFINERY EXPANSION PROJECT AT TIKRI, ODISHA"
     },
     {
         id:2,
@@ -19,9 +19,9 @@ export const ongoFabProjects = [
             "./ongoing/Ongo_32.jpg", "./ongoing/Ongo_32_1.jpg","./ongoing/Ongo_32_2.jpg","./ongoing/Ongo_32_3.jpg"
         ],
         client: "NEO STRUCTO",
-        customer:"UAIL",
+        customer:"UTKAL ALUMINA INTERNATIONAL LTD",
         location:"TIKIRI",
-        project:"ERECTION OF STRUCTURAL STEEL AT TIKRI, ODISHA."
+        project:" FABRICATION OF STRUCTURALS AT OUR BHILAI WORKS UNIT  FOR ALUMINA REFINERY PROJECT AT TIKRI, ODISHA."
     },
     {
         id:3,
@@ -31,7 +31,7 @@ export const ongoFabProjects = [
         client: "ABB INDIA LTD",
         customer:"HINDUSTAN ZINC LTD",
         location:"RAJASTAN",
-        project:"SKID FABRICATION BY STRUCTURAL STEEL INCLUDING SUPPLY OF STEEL FOR HZL ZAWAR AND RA MINES, RAJASTHAN, INDIA"
+        project:"FABRICATION OF SKID INCLUDING SUPPLY OF STEEL AT OUR BHILAI WORKS UNIT FOR HINDUSTAN ZINC LIMITED  ZAWAR AND RA MINES, RAJASTHAN, INDIA"
     },
     {
         id:4,
@@ -41,7 +41,7 @@ export const ongoFabProjects = [
         client: "BHEL",
         customer:"NMDC- NAGARNAR(CG)",
         location:"NAGRNAR",
-        project:"ERECTION OF COLOUR COATED SHEET FOR RMHS PACAKGE NMDC, NAGARNAR, CHHATTISGARH."
+        project:"FIXING  OF COLOUR COATED SHEET FOR RMHS PACAKGE NMDC, NAGARNAR, CHHATTISGARH."
     },
     {
         id:5,
@@ -51,7 +51,7 @@ export const ongoFabProjects = [
         client: "ATMASCO LTD",
         customer:"JSW",
         location:"MAHARASHTRA",
-        project:"FABRICATION OF HEAVY STRUCTURAL STEEL FOR JSW DOLVY PROJECT, MAHARASHTRA"
+        project:"FABRICATION OF HEAVY STRUCTURAL INCLUDING STEEL SUPPLY AT OUR BHILAI WORKS UNIT FOR  JSW DOLVI PROJECT, MAHARASHTRA"
     },
     {
         id:6,
@@ -60,8 +60,8 @@ export const ongoFabProjects = [
         ],
         client: "TATA PROJECTS LIMITED",
         customer:"NTPC TPP TALCHER",
-        location:"SAMBALPUR, ODISHA",
-        project:"Scope of Supply shall comprise of Building structure, Process plant structure, conveyor structure, pipe & cable rack structure, staircase structure, ladders etc. for FGD Projects at NTPC TPP."
+        location:" ODISHA",
+        project:" FABRICATION OF STRUCTURALS INCLUDING STEEL SUPPLY AT OUR BHILAI WORKS UNIT  FOR BUILDING,CONVEYOR, PIPE & CABLE RACK ETC. FOR FGD PROJECTS AT NTPC TPP."
     },
     {
         id:7,
@@ -71,7 +71,7 @@ export const ongoFabProjects = [
         client: "ZETWERK MANUFACTURING BUSINESSES PRIVATE LIMITED.",
         customer:"JNK / IOCL",
         location:" ",
-        project:"Scope of Supply, Fabrications blasting and painting of steel  structures for JNK/IOCL PARADIP PX-PTA PROJECT."
+        project:"FABRICATION OF STRUCTURE AND SUPPLY OF STEEL AT OUR BHILAI WORKS UNIT  FOR JNK/IOCL PARADIP PX-PTA PROJECT."
     },
     
 ]

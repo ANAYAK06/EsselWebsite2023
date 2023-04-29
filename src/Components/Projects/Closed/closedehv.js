@@ -12,7 +12,7 @@ export const closedehvProjects = [
         client: "HCL",
         customer:"HCL",
         location:"JHARSUGUDA",
-        project:""
+        project:"Refurbishment of 66 KV Switchyard & Main receiving substation for Hindustan Copper Limited, Jhagadia, Bharuch"
         
     },
     {

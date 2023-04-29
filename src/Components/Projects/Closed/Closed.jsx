@@ -42,8 +42,9 @@ function Closed() {
       <div className="project_tab">
         <div className={`tab ${activeTab === 'EHV' ? 'active':''}`} onClick={()=>handleTabClick('EHV')} >EHV SUBSTATION PROJECTS</div>
         <div  className={`tab ${activeTab === 'E&I' ? 'active':''}`} onClick={()=>handleTabClick('E&I')}>E&I  PROJECTS</div>
-        <div className={`tab ${activeTab === 'FAB' ? 'active':''}`} onClick={()=>handleTabClick('FAB')}>FABRICATION PROJECTS</div>
+        
         <div className={`tab ${activeTab === 'CIVIL' ? 'active':''}`} onClick={()=>handleTabClick('CIVIL')}>CIVIL PROJECTS</div>
+        <div className={`tab ${activeTab === 'FAB' ? 'active':''}`} onClick={()=>handleTabClick('FAB')}>WORKS UNIT, BHILAI <span><p className='tab-text'>(Associated Mechanical Site Installation)</p></span></div>
       </div>
     
     <div className='slider_div'>

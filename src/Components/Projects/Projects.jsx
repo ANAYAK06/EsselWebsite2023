@@ -5,7 +5,15 @@ import Ongo from '../../Assets/ongo.jpg'
 import Area from '../Pages/Area'
 import {BsArrowRightSquare} from 'react-icons/bs'
 
+
 function Projects() {
+
+  const scrollToTop =()=>{
+    window.scrollTo({
+        top:0,
+        behavior:'smooth'
+    })
+}
 
   
 
@@ -29,7 +37,7 @@ function Projects() {
               <span className='num' >22 <span>RUNNING <br />  PROJECTS</span>
               </span>
               <div className='btn'>
-                <Link className='link' to ='/running'>View More <BsArrowRightSquare/></Link>
+                <Link className='link' to ='/running' onClick={scrollToTop}  >View More <BsArrowRightSquare/></Link>
               </div>
             </div>
           </article>
@@ -46,7 +54,7 @@ function Projects() {
               <span className='num' >60 <span>CLOSED <br />  PROJECTS</span>
               </span>
               <div className='btn'>
-                <Link className='link' to='/closed' >View More <BsArrowRightSquare/></Link>
+                <Link className='link' to='/closed' onClick={scrollToTop} >View More <BsArrowRightSquare/></Link>
                 
               </div>
             </div>

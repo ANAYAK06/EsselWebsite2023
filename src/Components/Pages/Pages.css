@@ -13,7 +13,7 @@
     align-items: center;
     width: 300px;
     display: flex;
-    padding: 2rem;
+    padding: 1rem;
     flex-direction: column;
     text-align: center;
     
@@ -23,10 +23,10 @@
     align-items: center;
 }
 .c_img img{
-    width: 10rem;
-    border-radius: 50%;
-    border: 2px solid;
-    padding: 1rem;
+    width: 15rem;
+    border: 2px double;
+    padding: 0.2rem;
+   
 }
 .overview_text{
     
