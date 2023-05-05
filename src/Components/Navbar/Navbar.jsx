@@ -117,7 +117,7 @@ const handleBothClick = ()=>{
         
         <ul className= {showMenu ? 'nav-links activemenu':'nav-links'}>
           <li >
-            <Link to ={'/'} onClick={toggleMenu} className='home' ><AiOutlineHome/></Link>
+            <Link to ={'/'} onClick={handleBothClick} className='home' ><AiOutlineHome/></Link>
           </li>
            {
             menuItems.map((menuItem, index)=>(

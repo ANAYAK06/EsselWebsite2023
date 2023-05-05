@@ -1,12 +1,14 @@
-import React, { useState } from 'react'
+import React, {  useState } from 'react'
 import Projectcard from '../Projectcard'
 import './Ongoing.css'
 import { ongoehvProjects } from './ongoehv'
 import { ongoeiProjects } from './ongoei'
 import { ongoFabProjects } from './ongofab'
+import { ongoCivilProjects } from './ongocivil'
 import ovr from '../../../Assets/Ov.jpg'
 
 function Ongoing() {
+ 
   
 
   const [activeTab, setActiveTab]= useState('EHV')
@@ -19,7 +21,9 @@ function Ongoing() {
       case 'EHV':
         return <Projectcard projects={ongoehvProjects} />
       case 'E&I':
-        return <Projectcard projects={ongoeiProjects} />
+        return <Projectcard projects={ongoeiProjects}  />
+      case 'CIVIL':
+        return <Projectcard  projects={ongoCivilProjects}/>
       case 'FAB':
         return <Projectcard projects={ongoFabProjects} />
 
@@ -44,7 +48,7 @@ function Ongoing() {
         <div  className={`tab ${activeTab === 'E&I' ? 'active':''}`} onClick={()=>handleTabClick('E&I')}>E&I  PROJECTS</div>
         
         <div className={`tab ${activeTab === 'CIVIL' ? 'active':''}`} onClick={()=>handleTabClick('CIVIL')}>CIVIL PROJECTS</div>
-        <div className={`tab ${activeTab === 'FAB' ? 'active':''}`} onClick={()=>handleTabClick('FAB')}>WORKS UNIT, BHILAI <span><p className='tab-text'>(Associated Mechanical Site Installation)</p></span></div>
+        <div className={`tab ${activeTab === 'FAB' ? 'active':''}`} onClick={()=>handleTabClick('FAB')}>WORKS UNIT ,BHILAI <span><p className='tab-text'>(Associated Mechanical Site Installation)</p></span></div>
       </div>
     
     <div className='slider_div'>

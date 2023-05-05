@@ -83,7 +83,7 @@ We had delivered quality fabricated structural to valued customers like M/s JSW,
             <article className='c_card'>
                 <TbFileCertificate  className='c-icon'/>
                 <h5>Certified </h5>
-                <small>ISO 9002-2008</small>
+                <small>ISO 9001-2015</small>
 
             </article>
             <article className='c_card'>

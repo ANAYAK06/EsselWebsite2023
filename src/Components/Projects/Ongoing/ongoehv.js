@@ -34,7 +34,7 @@ export const ongoehvProjects = [
     },
     
     {
-        id:5,
+        id:4,
         photoIcon: [
             "./ongoing/Ongo_7.jpg", 
         ],
@@ -43,5 +43,6 @@ export const ongoehvProjects = [
         location:"KORBA(C.G)",
         project:"Dismantling, Erection & commissioning services for 400/220KV GIS and AIS, BALCO"
     },
+    
     
 ]

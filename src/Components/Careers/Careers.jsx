@@ -1,11 +1,26 @@
-import React, { useState } from "react";
+import React, { useState , useRef} from "react";
 import "./Careers.css";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { careerData } from "./careersdata";
 import Careerimg from "../../Assets/career.jpg";
 import { AiOutlineCloseCircle } from "react-icons/ai";
+import emailjs from 'emailjs-com'
 
 function Careers() {
+  const form = useRef()
+
+  
+    const sendEmail = (e)=> {
+        e.preventDefault();
+
+        emailjs.sendForm('service_zu19oc5', 'template_ovseum9', form.current, 'cmueqT_AMUUJSewnC')
+        e.target.reset()
+    }
+   
+
+
+
+
   const [selectedItemId, setSelectedItemId] = useState(null);
 
   const onClickItem = (itemId) => {
@@ -32,7 +47,7 @@ function Careers() {
   const [experienceDetails, setExperienceDetails] = useState([]);
 
   const addExperienceDetails = () => {
-    setExperienceDetails([...experienceDetails, { orgainization: "", position: "" }]);
+    setExperienceDetails([...experienceDetails, { organization: "", position: "" }]);
   };
   const removeExperienceDetails = (index) => {
     const updateExperienceDetails = [...experienceDetails];
@@ -54,7 +69,7 @@ function Careers() {
       <div className="close_icon" onClick={()=>removeSkills(skill.length)}>
         <AiOutlineCloseCircle />
       </div>
-      <textarea name="" id="" cols="103" rows="10" placeholder="Separate your Skills with coma"></textarea>
+      <textarea name="skill" id="" cols="103" rows="10" placeholder="Separate your Skills with coma"></textarea>
     </div>
 
     )
@@ -106,7 +121,7 @@ function Careers() {
           ))}
         </div>
       </div>
-      <form action="">
+      <form action="" ref={form} onSubmit={sendEmail}>
       {selectedItemId && (
         <div className="input_area">
           <div className="input_name">
@@ -154,9 +169,9 @@ function Careers() {
                     )
                   }
                 />
-                <input type="text" placeholder="Enter Field of Study" />
-                <input type="date" placeholder="Start Date" />
-                <input type="date" placeholder="End Date" />
+                <input type="text" placeholder="Enter Field of Study"  name="course"/>
+                <input type="date" placeholder="Start Date" name="from_date" />
+                <input type="date" placeholder="End Date" name="to_date" />
                 </div>
               </div>
             ))}
@@ -177,9 +192,9 @@ function Careers() {
                 <div className="form_details">
                   
                 <input
-                  type="text" name="college"
+                  type="text" name="org"
                   placeholder="Organization name"
-                  value={experience.orgainization}
+                  value={experience.organization}
                   onChange={(e) =>
                     handleExperienceDetailsChange(
                       index,
@@ -190,6 +205,7 @@ function Careers() {
                 />
                 <input
                   type=" text"
+                  name="position"
                   placeholder=" Position "
                   value={experience.position}
                   onChange={(e) =>
@@ -209,6 +225,7 @@ function Careers() {
             <div className="btn_blue" onClick={addExperienceDetails}>Add Experience</div>
           </div>
           <div className="skills">
+            
             {
               skill.map((skill)=>skill)
             }
@@ -219,7 +236,7 @@ function Careers() {
           </div>
           
           
-          <div className="btn_blue contact_submit ">Submit</div>
+          <button type="submit" className="btn_blue">Submit</button>
         </div>
         
       )}

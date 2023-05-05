@@ -6,6 +6,13 @@ import {AiOutlineCloudDownload} from 'react-icons/ai'
 import ContactForm from './ContactForm'
 
 function Contacts() {
+
+    const scrollToTop =()=>{
+        window.scrollTo({
+            top:0,
+            behavior:'smooth'
+        })
+    }
  
 
   return (
@@ -48,8 +55,8 @@ function Contacts() {
                         
                         <h5>Downloads</h5>
                         <small>Click Here to Download Our latest EHV, E&I, Fabrication Projects Profile</small> 
-                        <div className="dnd_icon">
-                            <Link to='/downloads' > <AiOutlineCloudDownload  /> </Link>
+                        <div className="dnd_icon" onClick={scrollToTop}>
+                            <Link to='/downloads'   > <AiOutlineCloudDownload  /> </Link>
 
                         
                         </div>

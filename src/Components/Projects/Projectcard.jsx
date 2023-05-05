@@ -70,7 +70,21 @@ function Projectcard({projects}) {
         beforeChange:(current, next)=>setImageIndex(next)
 
       })
-      const [selectedImageIdx, setSelectedImageIdx] = useState(Array(projects.length).fill(0))
+      // const [selectedImageIdx, setSelectedImageIdx] = useState(Array(projects.length).fill(0))
+      const [selectedImageIdx, setSelectedImageIdx] = useState([]);
+      useEffect(() => {
+        setSelectedImageIdx(Array(projects.length).fill(0));
+      }, [projects]);
+      
+
+
+
+      console.log(selectedImageIdx)
+    
+      
+
+     
+      
 
       const handleImageClick = (projectIdx, idx)=>{
         setSelectedImageIdx(prevState =>{
@@ -80,6 +94,7 @@ function Projectcard({projects}) {
         })
 
       }
+      
 
       
         const handleResize =useCallback(()=>{
@@ -124,7 +139,10 @@ function Projectcard({projects}) {
                     <div className="icon_image">
                         
                             
-                                <img className='icon_image' src={setSelectedImageIdx[projectIdx] !== null ? project.photoIcon[selectedImageIdx[projectIdx]]: null} alt="icon" />
+                                {/* <img className='icon_image' src={setSelectedImageIdx[projectIdx] !== null ? project.photoIcon[selectedImageIdx[projectIdx]]: null} alt="icon" /> */}
+                                <img className='icon_image' key={project.id} src={setSelectedImageIdx[projectIdx] !== null ? project.photoIcon[selectedImageIdx[projectIdx]]: null} alt="icon" />
+
+
                             
                         <div className="projectname">
                           <p>PROJECT: {project.project}</p>

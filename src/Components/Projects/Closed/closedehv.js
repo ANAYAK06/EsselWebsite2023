@@ -98,7 +98,7 @@ export const closedehvProjects = [
     {
         id:11,
         photoIcon: [
-            "./completed/Compl_24.jpg","./completed/Compl_24_1.jpg","./completed/Compl_24_2.jpg","./completed/Compl_24_3.jpg"
+            "./completed/Compl_24.jpg","./completed/Compl_24_3.jpg"
         ],
         client: "ABB Ltd",
         customer:"JPL",
