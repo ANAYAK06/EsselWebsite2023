@@ -16,49 +16,19 @@ function Overview() {
         
         <div className="overview_text">
           <p>
-            ESSEL PROJECTS PVT LTD is one of the fastest growing ETC Contracting
-            Companies with a significant presence in industrial sectors of
-            Power, Steel, Cement and infrastructure Projects throughout our
-            Nation. <br />
-            Essel Projects Pvt Ltd (EPPL) had been established as an ETC
-            contracting company in early 2007 with an objective of developing a
-            strong commitment to the project field of Electrical and
-            Electro-Mechanical orientation and to become a part of our nation
-            building activities. Till 2007, two sister concerns, proprietorship
-            companies of same management namely ESSEL ENGINEERING & ESPEES
-            ENGINEERING, had been carrying out Erection, Testing & Commissioning
-            of EHV Substation up to 400KV, Plant Electricals for Power and Steel
-            industries including installation of EHV transformers, HT, LT Cable
-            laying, as well as Fabrication, Erection of Heavy and Medium Steel
-            Structures for similar industries and other related jobs in almost
-            all over India. <br />
-            After the emergence of ESSEL PROJECTS PVT LTD as an ETC company, we
-            brought these two component companies (ESPEES ENGINEERING & ESSEL
-            ENGINEERING) under one roof and consolidated our business strength.
-            We have successfully completed several important Electrical &
-            Electro Mechanical Projects for our customers and clients like ABB,
-            L&T, HCL, UTCL AREVA, SIEMENS, FLSMIDTH, ABHIJEET, VISA STEEL etc.
-            by adopting latest creative techniques. We have accomplished this by
-            integrating the engineering knowledge with pioneering skills and by
-            optimum utilization of men and material by giving utmost importance
-            to SAFETY and QUALITY. For our systematic approach towards every
-            assignment with commitment, the company has been certified under ISO
-            9001-2000 in 2008 and further renewed by 9001 -2008 in 2011. The
-            growth of our company is based on an efficient organization and
-            management under guidance of our Managing Director Mr. Pradeep Kunnummal
-            We have been obtaining many valuable projects of EHV Substations,
-            Plant Electrical from our valued customers and clients and are in
-            the verge of completing many of those projects. <br />
-            We are proud to state that, we are being counted among the leading
-            service providers to be reckoned with in the Electrical & Electro
-            Mechanical sphere and enjoy a strong showcase of the valuable
-            appreciations from our customers. <br />
-            Due to our commitment towards SAFETY & QUALITY we have been awarded
-            with the certificate of PREFERRED CONTRACTOR by ABB in the year of
-            2009 and further we have been maintaining same commitment
-            continuously <br />
-            We don't have any marketing policy other than "our satisfied
-            customer will do the marketing for us"
+          Essel Projects Pvt Ltd (EPPL) is a rapidly growing  ETC contracting company with a significant presence in the industrial sectors of Power, Steel, Cement, and Infrastructure Projects throughout India. Established in early 2007, EPPL has evolved as an organization offering comprehensive solutions in Electrical, Mechanical and Civil engineering domains. <br /> <br />
+ 
+ For carrying out erection/testing/commissioning of EHV Substations up to 765 KV and Heavy Transformers up to 500 MVA  and complete installation of HT/LT Plant Electricals, Illumination including EHV Cabling Essel Projects has been the first choice of leading corporate in the filed of Power/Cement/Steel plants.   <br /> <br />
+  
+ The company has successfully completed several significant  Projects for esteemed customers such as ABB, L&T, HCL, UTCL AREVA, SIEMENS, FLSMIDTH, MECON,SAIL(Bhilai, Bokaro, Rourkela Plants) etc., by Performing best  to the satisfaction of the customer. The company has accomplished this by integrating engineering knowledge with pioneering skills and by optimum utilization of men and material while giving utmost importance to SAFETY and QUALITY. <br /> <br />
+  
+  A reasonably large in house fabrication shop, shot blasting and painting facilities, with commendable infrastructure for Heavy Structures, Technological Structures and Ducts , our works at Bhilai  spread over 1,55. 000 square feet and 40000 sq ft covered area,  supplements our strengths in meeting the timely delivery requirements of our clients .  Currently capable of delivering 750 tons/month of structural fabricated items, we are on the path of augmentation of the scaling up the  infrastructure. <br /> <br /> 
+  For its systematic approach towards every assignment with commitment, the company has been certified under ISO 9001-2000 in 2008 and renewed by 9001 -2015 in 2020. The company's growth is based on an efficient organization and management under the guidance of its Managing Director, Mr. Pradeep Kunnummal. At present the company is executing many important projects of  EHV Substations, Plant Electrical of reputed corporate and the same reflects the confidence of our clients in our capability to successfully complete the project within the stipulated time frame. Appreciation letters from our clients who are leaders in respective fields, commending on our capability and quality of services rendered by us, we consider a glowing tribute and recognition to us <br />
+  <br />
+  EPPL's marketing policy is based on the philosophy that a satisfied customer will do the marketing for the company
+ 
+
+ 
           </p>
         </div>
         <div className="c_avatar">

@@ -20,6 +20,7 @@
 
 .project_icon{
    height:200px ; 
+   overflow: hidden;
    
 }
 
@@ -28,6 +29,10 @@
     width: 400px;
     border-radius: 1rem 1rem 0 0;
     box-shadow: 2px 0 2px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+}
+.project_icon:hover img{
+    transform: scale(1.2);
 }
 .num{
     font-size: 4rem;
