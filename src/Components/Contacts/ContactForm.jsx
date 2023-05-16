@@ -3,6 +3,7 @@ import React, { useRef } from 'react'
 import emailjs from 'emailjs-com'
 
 
+
 function ContactForm() {
 
     const form = useRef()
@@ -28,6 +29,7 @@ function ContactForm() {
                         <textarea name="message" id="" cols="30" rows="10" placeholder='Your Message'  ></textarea>
                         <button type='submit' className='btn_blue'>Send Message</button>
                     </form>
+                    
 
     </>
   )

@@ -5,6 +5,7 @@ import { careerData } from "./careersdata";
 import Careerimg from "../../Assets/career.jpg";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import emailjs from 'emailjs-com'
+import Successpopup from "./Successpopup";
 
 function Careers() {
   const form = useRef()
@@ -82,6 +83,22 @@ function Careers() {
     setSkills(newSkill)
   }
 
+  const [isSubmitted, setIsSubmitted] = useState(false)
+
+  const handleSubmit =  (e)=>{
+    e.preventDefault();
+    sendEmail(e)
+    setIsSubmitted(true);
+
+    
+    
+  }
+  const handleClosepopup = ()=>{
+    setIsSubmitted(false)
+  }
+
+ 
+
   
   
 
@@ -121,7 +138,7 @@ function Careers() {
           ))}
         </div>
       </div>
-      <form action="" ref={form} onSubmit={sendEmail}>
+      <form action="" ref={form} onSubmit={handleSubmit}>
       {selectedItemId && (
         <div className="input_area">
           <div className="input_name">
@@ -240,7 +257,10 @@ function Careers() {
         </div>
         
       )}
+      
       </form>
+     
+      {isSubmitted && <Successpopup onClose={handleClosepopup}/> }
     </section>
   );
 }
