@@ -1,24 +1,16 @@
-import React, { useState } from 'react'
+import React  from 'react'
 import {FiCheckCircle} from 'react-icons/fi'
 import {IoIosCloseCircleOutline} from 'react-icons/io'
 
-function Contactsuccess() {
+function Contactsuccess({onClose}) {
 
- const [isContacted, setIsContacted]= useState(false)
-
-  const  submitContact = (e)=>{
-        e.preventDefault();
-        setIsContacted(true);
-    }
-  const closeContact =()=>{
-    setIsContacted(false);
-  }
+ 
 
 
   return (
     <>
     <div className="success-popup">
-        <div className="close-popup" onClick={closeContact} >
+        <div className="close-popup" onClick={onClose} >
         <IoIosCloseCircleOutline/>
         </div>
     <h2>Success!</h2>
