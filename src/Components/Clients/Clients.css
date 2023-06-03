@@ -22,10 +22,10 @@
     align-items: center;
     justify-content: center;
 }
-.slick-arrow.slick-prev{
+ .client-section .slick-arrow.slick-prev{
     display: none;
 }
-.slick-arrow.slick-next{
+ .client-section .slick-arrow.slick-next{
     display: none!;
 }
 .client-section{
@@ -40,6 +40,12 @@
 @media screen and (max-width: 768px){
     .client-section{
         position: relative;
-        top: 28rem;
+        top: 8rem;
     }
+
+    .client-section .slick-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
 }

@@ -325,7 +325,7 @@
 @media screen and (max-width: 768px){
     #area{
         position: relative;
-        top: 29rem;
+        top: 9rem;
     }
     .area_of_operation{
         display: flex;

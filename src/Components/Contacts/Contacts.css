@@ -116,9 +116,22 @@ background-color: var(--blue_variant);
 @media screen and (max-width: 768px){
     .contact {
         position: relative;
-        top: 25rem;
+        top: 5rem;
     }
     .contact_area {
         grid-template-columns: 1fr;
+        width: 90%;
+    }
+    .address{
+        width: 260px;
+    }
+    .social{
+        width: 250px;
+    }
+    .input_contacts{
+        width: 290px;
+    }
+    .input_contacts input{
+        width: auto;
     }
 }

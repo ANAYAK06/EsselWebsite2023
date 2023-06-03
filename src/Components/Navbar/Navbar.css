@@ -146,6 +146,8 @@ nav.scrolled {
     }
 }
 
+
+
 @media screen and (min-width: 769px) and (max-width: 1300px) {
     /* Styles for 13-inch laptops */
 
@@ -160,7 +162,7 @@ nav.scrolled {
   .logo{
     width: 3rem;
     height: 3rem;
-    margin-left: 90px;
+    margin-left: 9px;
   }
   .nav-links a{
     font-size: 0.9rem;
@@ -168,6 +170,10 @@ nav.scrolled {
   .name p {
     font-size: 0.60rem;
   }
+  .bg_btnarea{
+    display: none;
+  }
+
   
   @media screen and (min-width: 1301px) and (max-width: 1366px) {
     /* Styles for 14-inch laptops */

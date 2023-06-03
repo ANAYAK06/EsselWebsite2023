@@ -105,10 +105,10 @@
 
 @media screen and (max-width: 768px) {
     .main_bg {
-      height: 600px;
+      height: 110px;
       flex-direction: column;
       position: relative;
-      top: 15rem;
+      top: 1rem;
     }
     
     .text_area {
@@ -128,7 +128,7 @@
     }
     
     .image_area img {
-      height: auto;
+      height: 250px;
       max-width: 100%;
     }
     .bgimg{

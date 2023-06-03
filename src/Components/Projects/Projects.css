@@ -68,7 +68,7 @@
 @media screen and (max-width: 768px){
     .project{
         position: relative;
-        top: 30rem;
+        top: 9rem;
     }
     .project_area{
         display: flex;

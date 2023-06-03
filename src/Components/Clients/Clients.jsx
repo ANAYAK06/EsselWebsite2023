@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Clients.css'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
@@ -9,7 +9,8 @@ import {clientImg} from './clientImages'
 
 function Clients() { 
 
-  const settings = {
+  const [settings, setSettings]= useState({
+
     dots: true,
     infinite:true,
     speed:500,
@@ -17,7 +18,46 @@ function Clients() {
     slidesToScroll:4,
     autoplay: true,
     autoplaySpeed: 2000
-  }
+
+  });
+
+  useEffect(()=>{
+    const handleResize =()=>{
+      const isMobile = window.matchMedia('(max-width:768px)').matches;
+      if (isMobile){
+        setSettings({
+          dots: false,
+          infinite: true,
+          speed: 500,
+          slidesToShow: 1, // Change the number of slides to show
+          slidesToScroll: 1, // Change the number of slides to scroll
+          autoplay: true,
+          autoplaySpeed: 2000
+        });
+
+      }else {
+        setSettings({
+          dots: true,
+          infinite: true,
+          speed: 500,
+          slidesToShow: 4,
+          slidesToScroll: 4,
+          autoplay: true,
+          autoplaySpeed: 2000
+        });
+      }
+    };
+    handleResize();
+
+    window.addEventListener('resize', handleResize)
+
+    return()=>{
+      window.removeEventListener('resize', handleResize)
+    };
+  }, [])
+
+
+
 
 
 
