@@ -54,7 +54,7 @@ function Contacts() {
                     <article className='contact_icon'>
                         
                         <h5>Downloads</h5>
-                        <small>Click Here to Download Our latest EHV, E&I, Fabrication Projects Profile</small> 
+                        <small>Click Here to Download Our latest EHV, E&I, Fabrication, Civil Projects Profile</small> 
                         <div className="dnd_icon" onClick={scrollToTop}>
                             <Link to='/downloads'   > <AiOutlineCloudDownload  /> </Link>
 

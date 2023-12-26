@@ -4,6 +4,7 @@ import './Contacts.css'
 import eni from '../../Assets/eni.pdf'
 import ehv from '../../Assets/ehv.pdf'
 import fab from '../../Assets/fab.pdf'
+import civil from '../../Assets/civil.pdf'
 
 function Downloads() {
 
@@ -51,6 +52,9 @@ function Downloads() {
         case 'Fabrication Profile':
           window.open(fab);
           break;
+        case 'Civil Profile':
+            window.open(civil);
+          break;
         default:
           break;
       }
@@ -77,7 +81,7 @@ function Downloads() {
   return (
     <>
     <div className="download_area">
-    <h3>Download Our EHV , E&I , Fabrication Profiles </h3>
+    <h3>Download Our EHV , E&I , Fabrication, Civil Profiles </h3>
     <div className='dnd_form'>
       <form action="" ref={form} onSubmit={handleSubmit}>
         <input type="text" placeholder='Your Name' name='name' value={name} onChange={handleNameChange} required />
@@ -89,6 +93,7 @@ function Downloads() {
           <option value="EHV Profile">EHV Profile</option>
           <option value="E&I Profile">E&I Profile</option>
           <option value="Fabrication Profile">Fabrication Profile</option>
+          <option value="Civil Profile">Civil Profile</option>
         </select> <br />
         <button type='submit' className=' btn_blue'>Download</button>
       </form>
