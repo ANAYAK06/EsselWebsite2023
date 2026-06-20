@@ -1,14 +1,11 @@
 import React from 'react'
 import './Footer.css'
-import {linkNames} from './data'
-import {AiOutlineLinkedin} from 'react-icons/ai'
-import {AiOutlineInstagram} from 'react-icons/ai'
-import logo from '../../Assets/essel.jpg'
-import { Link } from 'react-router-dom' 
+import { linkNames } from './data'
+import { AiOutlineLinkedin } from 'react-icons/ai'
+import { AiOutlineInstagram } from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 
-
-
-
+const logo = process.env.PUBLIC_URL + '/essel.svg'
 
 function Footer() {
   return (
@@ -18,22 +15,19 @@ function Footer() {
      <ul>
       {
         linkNames.map(link=>(
-          <li >
+          <li key={link.to}>
             <Link to={link.to}>{link.heading}</Link>
           </li>
         ))
       }
      </ul>
-     
      <div className='social_icons'>
       <AiOutlineLinkedin/>
       <AiOutlineInstagram />
-
      </div>
      <div>
       <small> &#169;  2023 Essel Projects Pvt Ltd </small>
      </div>
-     
    </footer>
   )
 }

@@ -20,24 +20,20 @@ nav.scrolled {
 }
 
 .logo{
-    width: 4rem;
-    height: 4rem;
-    background-color: var(--blue);
-    border-radius: 0.5rem;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-
+    display: flex;
+    align-items: center;
 }
 .logo img {
-    width: 4rem;
-    height: 4rem;
+    height: 4.5rem;
+    width: auto;
 }
 
 .name{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     margin: 0;
 }
 .name p {
-    font-size: 0.7rem;
+    font-size: 1rem;
 }
 .nav-links{
     display: flex;
@@ -136,13 +132,9 @@ nav.scrolled {
     .name p{
         display:none ;
     }
-    .logo{
-        width:3rem ;
-        height: 3rem;
-    }
     .logo img{
-        width: 3rem;
         height: 3rem;
+        width: auto;
     }
 }
 
@@ -152,23 +144,21 @@ nav.scrolled {
     /* Styles for 13-inch laptops */
 
     .name{
-        font-size: 1rem;
+        font-size: 0.85rem;
     }
     .logo img{
-        width: 3rem;
-        height: 3rem;
+        height: 3.5rem;
+        width: auto;
     }
   }
   .logo{
-    width: 3rem;
-    height: 3rem;
     margin-left: 9px;
   }
   .nav-links a{
     font-size: 0.9rem;
   }
   .name p {
-    font-size: 0.60rem;
+    font-size: 1rem;
   }
   .bg_btnarea{
     display: none;
@@ -178,10 +168,10 @@ nav.scrolled {
   @media screen and (min-width: 1301px) and (max-width: 1366px) {
     /* Styles for 14-inch laptops */
     .name{
-        font-size:1.3rem;
+        font-size:1rem;
     }
     .name p{
-        font-size: 0.75rem;
+        font-size: 1rem;
     }
    
   }

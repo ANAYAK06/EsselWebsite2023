@@ -2,8 +2,9 @@ import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 import { Link} from 'react-router-dom';
 import {FaBars} from 'react-icons/fa';
-import logo from '../../Assets/essel.jpg'
 import {AiOutlineHome} from 'react-icons/ai'
+
+const logo = process.env.PUBLIC_URL + '/essel.svg';
 
 
 
@@ -108,7 +109,7 @@ const handleBothClick = ()=>{
         </div>
         <div className="name">
             <h1>ESSEL PROJECTS PVT LTD</h1>
-            <p>Commited Towards Quality, Safety and Customer Satisfaction</p>
+            <p>Built On Integrity . Driven By Perfomance</p>
         </div>
         <div className='fa-icon' onClick={toggleMenu}>
           <FaBars />
