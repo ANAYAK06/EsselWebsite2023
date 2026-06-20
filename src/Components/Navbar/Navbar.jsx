@@ -109,7 +109,7 @@ const handleBothClick = ()=>{
         </div>
         <div className="name">
             <h1>ESSEL PROJECTS PVT LTD</h1>
-            <p>Built On Integrity . Driven By Perfomance</p>
+            <p>Built On Integrity . <span style={{color: '#e38835'}}>Driven By Performance</span></p>
         </div>
         <div className='fa-icon' onClick={toggleMenu}>
           <FaBars />

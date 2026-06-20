@@ -16,7 +16,12 @@ nav{
 nav.scrolled {
     background-color:var(--blue);
     color: #fff;
-    
+
+}
+nav.scrolled .logo img {
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 3px 6px;
 }
 
 .logo{
@@ -31,6 +36,7 @@ nav.scrolled {
 .name{
     font-size: 1.1rem;
     margin: 0;
+    text-align: center;
 }
 .name p {
     font-size: 1rem;
